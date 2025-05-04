@@ -21,7 +21,7 @@ interface PassengerProps {
 export default function  Passenger({ index, isSelected, onToggle, data, onChange }: PassengerProps) {
     
     return (
-    <div className="">
+    <div className="p-4">
         <button
             onClick={onToggle}
             className="w-full flex justify betwwen p-4 bg-[#c6c6c6]  hover:bg-[#b6b6b6] cursor-pointer"

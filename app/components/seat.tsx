@@ -13,7 +13,7 @@ export default function Seat({ id, selected, onToggle }: SeatProps) {
     const full = parseInt(id, 10) <= 10
     const [hover, setHover] = useState(false)
 
-    const seat = "w-6 h-8 border border-[#c6c6c6] rounded flex items-center justify-center text-xs relative"
+    const seat = "w-4 h-6 border border-[#c6c6c6] rounded flex items-center justify-center text-xs relative"
     let style = "bg-white hover:bg-[#ffd885] cursor-pointer"
     if (selected) style = "bg-[#feca5c]"
     if (full) style = "bg-[#e5e5e5]"

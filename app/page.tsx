@@ -123,9 +123,9 @@ export default function Home() {
 
 
   return (
-    <main className="font-sans grid grid-cols-2 gap-4 p-4">
+    <main className="font-sans grid grid-cols-2 gap-4">
       <div className="flex justify-center">
-        <div className="flex flex-col items-center gap-1">
+        <div className="flex flex-col items-center">
           <SeatMap selected={selectedSeats} onToggle={toggleSeat}/>
           <Legend/>
         </div>
